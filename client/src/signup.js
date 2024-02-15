@@ -22,6 +22,8 @@ const Signup = () => {
     e.preventDefault();
     if (email === "") {
       eSetmsg("Email should not be empty");
+    }else if(!email.includes("@")){
+      eSetmsg("Email must contain '@' ")
     } else if (email) {
       eSetmsg();
     }
