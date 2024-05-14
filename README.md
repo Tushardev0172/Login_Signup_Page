@@ -38,7 +38,7 @@ Before running the application, ensure that you have the following installed:
 4. Install dependencies for the Backend:
    ```bash
    cd server
-   npm iniy -y
+   npm init -y
    npm install
    npm install express
    npm install cors
